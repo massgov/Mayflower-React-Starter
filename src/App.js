@@ -30,7 +30,7 @@ class App extends Component {
           <main className="main-content">
             <section className="main-content--two">
               <div className="ma__page-header__content">
-                <h1 className="ma__page-header__title">Rideshare Data</h1>
+                <h1 className="ma__page-header__title">Mayflower Starter Template</h1>
               </div>
             </section>
           </main>

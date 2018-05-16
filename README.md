@@ -1,11 +1,11 @@
 # Mayflower React Starter Template
 
-Starter template for Mayflower-react, a react component library for 
+This is a starter template for Mayflower-react — a react component library for the Mayflower Design System.
 
 ## Quick start
 
-- $ ``git clone git@github.com:massgov/massgov-search.git``
-- $ ``cd massgov-search``
+- $ ``git clone https://github.com/massgov/DPH-Mayflower.git``
+- $ ``cd DPH-Mayflower``
 - $ ``npm i``
 - $ ``npm start``
 - Browse to http://localhost:3000, or the custom port shown in the output of npm start.
