@@ -4,8 +4,8 @@ This is a starter template for Mayflower-react — a react component library for
 
 ## Quick start
 
-- $ ``git clone https://github.com/massgov/DPH-Mayflower.git``
-- $ ``cd DPH-Mayflower``
+- $ ``git clone https://github.com/massgov/Mayflower-React-Starter.git``
+- $ ``cd Mayflower-React-Starter``
 - $ ``npm i``
 - $ ``npm start``
 - Browse to http://localhost:3000, or the custom port shown in the output of npm start.
