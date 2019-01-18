@@ -6,6 +6,8 @@ import HeaderSearchData from './data/HeaderSearch.data';
 import FooterLinksLiveData from './data/FooterLinksLive.json';
 import SocialLinksLiveData from './data/SocialLinksLive.json';
 
+import './index.css';
+
 
 class App extends Component {
   constructor(props) {

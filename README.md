@@ -13,7 +13,7 @@ This is a starter template for Mayflower-react — a react component library for
 ## System Requirements
 
 - node.js, currently standardized on version 8.9.4
-- npm, currently standardized on version 5.6.0
+- npm, currently standardized on version 10.10.0
 - To run tests locally, you will need to install [Watchman](https://facebook.github.io/watchman/docs/install.html).
 - That's it! All other dependencies should be included when you run ``npm i``.
 
