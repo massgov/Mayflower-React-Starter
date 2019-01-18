@@ -1,22 +1,23 @@
-import React from 'react';
-import { SvgBuilding, SvgLogin } from '@massds/mayflower-react';
-
 export default {
   items: [{
+    text: 'All Budgets',
+    ariaLabelText: '',
+    icon: 'building',
+    href: 'https://www.mass.gov'
+  }, {
     text: 'State Organizations',
     ariaLabelText: '',
-    icon: <SvgBuilding />,
+    icon: 'building',
     closeText: 'Close',
     panel: {
       description: {
-        text: 'The <a href="https://www.mass.gov/state-a-to-z">A-Z Organizations page</a> provides an alphabetical listing of government organizations, including commissions, departments, and bureaus.'
-      },
-      links: []
+        text: 'The <a href="#">A-Z Organizations page</a> provides an alphabetical listing of government organizations, including commissions, departments, and bureaus.'
+      }
     }
   }, {
     text: 'Log in to...',
     ariaLabelText: 'Log in to the most requested services',
-    icon: <SvgLogin />,
+    icon: 'login',
     closeText: 'Close',
     panel: {
       description: {
