@@ -19,3 +19,9 @@ This is a starter template for Mayflower-react — a react component library for
 
 ## Production build
 - $ ``npm run build`` (Builds production app)
+
+## Other Handy Commands
+- $ ``npm run lint`` (Runs linter)
+- $ ``npm run lint-fix`` (Runs linter and fixes what it can automagically)
+- $ ``npm run build && serve`` (Serves production app after built)
+- $ ``npm run build-css`` (Compiles css files from scss)
