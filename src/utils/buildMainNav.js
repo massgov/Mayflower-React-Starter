@@ -16,10 +16,10 @@ try {
     resp.on('end', () => {
       // Write out the JSON, formatted with 2 space indent, as a JS module.
       data = JSON.stringify(JSON.parse(data), null, 2);
-      const content = generatedMessage + os.EOL +
-        eslintDisable + os.EOL +
-        `const ${varName} = ${data};` + os.EOL +
-        `export default { ${varName} };` + os.EOL;
+      const content = generatedMessage + os.EOL
+        + eslintDisable + os.EOL
+        + `const ${varName} = ${data};` + os.EOL
+        + `export default { ${varName} };` + os.EOL;
 
       fs.writeFileSync(dataFileName, content, 'utf8', (err) => {
         if (err) throw err;
