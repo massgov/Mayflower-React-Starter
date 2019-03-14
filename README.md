@@ -1,5 +1,7 @@
 # Mayflower React Starter Template
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/massgov/mayflower-react-starter.svg)](https://greenkeeper.io/)
+
 This is a starter template for Mayflower-react — a react component library for the Mayflower Design System.
 
 ## Quick start
