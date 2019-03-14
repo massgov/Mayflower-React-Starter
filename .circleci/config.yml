@@ -13,7 +13,7 @@ jobs:
     steps:
       - checkout
       - run: npm install --no-optional
-      - run: npm run lint
+      - run: npm run build-css && npm run lint
       - run:   
           command: npm run build
           no_output_timeout: 10m

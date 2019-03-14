@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Header, Footer } from '@massds/mayflower-react';
+import { Header, Footer, ButtonFixedFeedback } from '@massds/mayflower-react';
 import UtilityNavData from './data/UtilityNav.data';
 import MainNavData from './data/MainNav.data';
 import HeaderSearchData from './data/HeaderSearch.data';
@@ -36,6 +36,7 @@ class App extends Component {
               <h1 className="ma__page-header__title">Mayflower Starter Template</h1>
             </div>
           </section>
+          <ButtonFixedFeedback href="https://www.mass.gov/feedback" />
         </main>
         <Footer {...this.footerProps} />
       </div>
