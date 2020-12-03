@@ -6,7 +6,7 @@ import HeaderSearchData from './data/HeaderSearch.data';
 import FooterData from './data/Footer.data';
 import SocialLinksLiveData from './data/SocialLinksLive.json';
 
-import './index.css';
+import './index.scss';
 
 
 class App extends Component {
