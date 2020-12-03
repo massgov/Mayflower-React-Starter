@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@massds/mayflower-assets": "^10.1.1",
-    "@massds/mayflower-react": "^10.1.1",
+    "@massds/mayflower-assets": "^10.3.0",
+    "@massds/mayflower-react": "^10.3.0",
     "axios": "^0.18.0",
     "node-sass": "npm:sass@^1.29.0",
     "npm-run-all": "^4.1.2",
